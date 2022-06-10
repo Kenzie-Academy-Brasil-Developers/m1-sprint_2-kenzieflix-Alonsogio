@@ -1,0 +1,257 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #121214;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+       width: 333px;
+        height: 300px;
+margin: 0px;
+    
+    background: #121214;
+    border-radius: 12px;
+}
+
+
+.Home{
+max-width: 700%;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px;
+gap: 21px;
+
+
+
+position: relative;
+width: 743px;
+height: 234px;
+
+ background-color: #FFFFFF;
+}
+
+.logo{
+position: absolute;
+width: 229px;
+height: 68px;
+left: 517px;
+top: 42px;
+
+background: url(.logo);
+
+-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: 1s;
+
+}
+ header{
+    display: flex;
+    max-height: auto;
+ }
+
+ .Cards{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    left: 470px;
+    top: 230px;
+    bottom: 274px;
+    margin: 11px;
+
+
+border: solid 5px transparent;
+
+background: url(avatar1.png);
+
+ }
+
+                     /* Quem esta assistindo */
+h2{
+    position: absolute;
+width: 334px;
+height: 32px;
+left: 475px;
+top: 150px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+color: #FFFFFF;
+
+}
+
+
+ span{ 
+    position: absolute;
+    width: 59px;
+    height: 18px;
+
+    left: 60px;
+    top: 180px;
+    bottom: 148px;
+    
+ 
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+border: solid 2px transparent;
+
+color: #9C9C9C;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+ }
+
+ .ADDperfil{
+    width: auto;
+    left: 30px;
+    height: auto;
+
+    font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+border: solid 4px transparent;
+
+color: #9C9C9C;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ }
+
+ .imagemALL{
+    max-width: 160px;
+height: 160px;
+
+}
+
+img{
+    border-radius: 8%;
+   
+}
+
+ .button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+ 
+    
+    width: 206px;
+    height: 50px;
+    left: 250px;
+    top: 290px;
+
+    color: #FFFFFF;
+    right: 148px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+position: relative;
+left: 100px;
+right: auto;
+
+bottom: auto;
+background-color: transparent;
+    
+ }
+  .button:hover {
+    background-color: white;
+    color: #121214;
+    transition: 1s;
+ }
+
+ .names:hover{
+background-color: transparent;
+color: white;
+transition: 1s;
+ }
+.ADDperfil:hover{
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+}
+ 
+
+ .Cards:hover{
+    border-radius: 10px;
+border-color:  #c6c4c4;
+color: white;
+transition: 1s;
+ }
+
+ .buto{
+    top: auto;
+    bottom: auto;
+ }
+
+ .logo:hover img{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: 1s;
+ }
